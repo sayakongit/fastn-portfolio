@@ -1,0 +1,23 @@
+-- import: fastn-community.github.io/misty-gray as ds
+-- import: fastn-community.github.io/misty-gray/landing as landing
+-- import: portfolio-project/assets
+
+-- ds.page:
+sidebar: false
+blog: true
+site-name: Sayak
+
+-- landing.hero-with-image: Hi! I am Sayak
+link: /
+cta-primary: Hire me
+cta-primary-link: /
+cta-secondary: How it works
+cta-secondary-link: /
+image: $assets.files.images.photo.jpg
+
+I'm an India based developer with a goal-driven creative mindset and passion for learning and innovating.
+
+Besides, I always opt for oppurtunities where I can solve problems with my knowledge and coding skills.
+
+
+-- end: ds.page
