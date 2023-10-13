@@ -1,11 +1,13 @@
 -- import: fastn-community.github.io/misty-gray as ds
 -- import: fastn-community.github.io/misty-gray/landing as landing
+-- import: fastn-community.github.io/blue-heal-cs
 -- import: portfolio-project/assets
 
 -- ds.page:
 sidebar: false
 blog: true
 site-name: Sayak
+ftd.color-scheme color-scheme: $blue-heal-cs.main
 
 -- landing.hero-with-image: Hi! I am Sayak
 link: /
@@ -21,3 +23,4 @@ Besides, I always opt for oppurtunities where I can solve problems with my knowl
 
 
 -- end: ds.page
+
