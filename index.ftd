@@ -1,13 +1,13 @@
--- import: fastn-community.github.io/misty-gray as ds
--- import: fastn-community.github.io/misty-gray/landing as landing
+-- import: fastn-community.github.io/midnight-storm as ds
+-- import: fastn-community.github.io/midnight-storm/landing as landing
 -- import: portfolio-project/assets
 
 -- ds.page:
 sidebar: false
 blog: true
-site-name: Sayak
+site-name: Spandan
 
--- landing.hero-with-image: Hi! I am Sayak
+-- ds.hero-with-image: Hi! I am Spandan
 link: /
 cta-primary: Hire me
 cta-primary-link: /
