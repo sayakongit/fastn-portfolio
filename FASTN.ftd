@@ -2,8 +2,8 @@
 
 -- fastn.package: portfolio-project
 
--- fastn.dependency: fastn-community.github.io/misty-gray
--- fastn.dependency: fastn-community.github.io/misty-gray/landing
+-- fastn.dependency: fastn-community.github.io/lato-typography
+-- fastn.dependency: fifthtry.github.io/button
 
 -- fastn.sitemap:
 

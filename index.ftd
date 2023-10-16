@@ -1,23 +1,92 @@
--- import: fastn-community.github.io/misty-gray as ds
--- import: fastn-community.github.io/misty-gray/landing as landing
--- import: portfolio-project/assets
+-- import: fastn-community.github.io/lato-typography
+-- import: fifthtry.github.io/button
 
--- ds.page:
-sidebar: false
-blog: true
-site-name: Sayak
+;; Navbar Section 
 
--- landing.hero-with-image: Hi! I am Sayak
-link: /
-cta-primary: Hire me
-cta-primary-link: /
-cta-secondary: How it works
-cta-secondary-link: /
-image: $assets.files.images.photo.jpg
+-- ftd.row:
+background.solid: #0B192E
+color: #CDD7F6
+spacing: space-between
+width: fill-container
+padding.px: 20
+padding-horizontal.px: 80
+role: $inherited.types.heading-medium
+align-content: center
+
+-- ftd.text: Sayak.
+
+-- ftd.row:
+spacing.fixed.px: 36
+role: $inherited.types.heading-tiny
+
+-- ftd.text: Home
+
+-- ftd.text: About
+
+-- ftd.text: Projects
+
+-- ftd.text: Experience
+
+-- ftd.text: Contact
+
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+;; Hero section
+
+-- ftd.row:
+background.solid: #0B192E
+color: #CDD7F6
+spacing: space-between
+width: fill-container
+padding-vertical.px: 160
+padding-horizontal.px: 280
+role: $inherited.types.heading-medium
+align-content: center
+
+-- ftd.column:
+spacing.fixed.px: 20
+role: $inherited.types.heading-tiny
+
+-- ftd.text:
+color: #64FFC9
+
+Hello World! My name is
+
+-- ftd.column:
+spacing.fixed.px: 20
+role: $inherited.types.heading-hero
+
+-- ftd.text:
+style: bold
+
+Sayak Saha.
+
+-- end: ftd.column
+
+-- ftd.container:
+width.fixed.px: 550
+role: $inherited.types.copy-large
+
+-- ftd.text:
+color: #8893B1
 
 I'm an India based developer with a goal-driven creative mindset and passion for learning and innovating.
 
 Besides, I always opt for oppurtunities where I can solve problems with my knowledge and coding skills.
 
+-- end: ftd.container
 
--- end: ds.page
+-- button.button: Hire Me!
+role: tertiary
+extra-large: true
+link: https://www.google.com
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+
